@@ -1,4 +1,4 @@
-#api_resolver
+# api_resolver
 
 This project implements a custom lazy import mechanism intended for low-level and security-sensitive use cases.
 
