@@ -1,7 +1,9 @@
-# api_resolver
-Just lazy importing again...
+#api_resolver
 
-While using pre-built solutions from repos like [JustasMasiulis/lazy_importer](https://github.com/JustasMasiulis/lazy_importer/tree/master/include)
- can save time and effort for standard use cases, a custom solution can provide a level of flexibility, control, and security that's difficult to match - this goes for all software, in general - and for that reason, while working on an anti-tamper, I've done this and thought to release it.
+This project implements a custom lazy import mechanism intended for low-level and security-sensitive use cases.
 
- This probably has its own set of issues, woops... :shrug:
+While established solutions such as JustasMasiulis/lazy_importer are well-engineered and suitable for many standard scenarios, they are designed to be general-purpose. In contexts such as anti-tamper or anti-analysis systems, a bespoke implementation can offer tighter control over behavior, reduced attack surface, and greater flexibility in how imports are resolved and managed at runtime.
+
+This implementation was developed as part of an anti-tamper project and is released to document the approach and provide a reference for others working in similar domains. It prioritizes explicit control and adaptability over drop-in convenience.
+
+The code has not been exhaustively audited and may contain limitations or edge cases. It is provided as-is, primarily for research, experimentation, and further refinement.
